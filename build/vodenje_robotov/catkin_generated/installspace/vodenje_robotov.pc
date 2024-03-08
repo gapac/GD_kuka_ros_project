@@ -1,0 +1,8 @@
+prefix=/home/gasper/GitHub/GD_kuka_ros_project/install
+
+Name: vodenje_robotov
+Description: Description of vodenje_robotov
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

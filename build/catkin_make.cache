@@ -1,0 +1,2 @@
+brics_actuator:vodenje_robotov
+-DCATKIN_DEVEL_PREFIX=/home/gasper/GitHub/GD_kuka_ros_project/devel -DCMAKE_INSTALL_PREFIX=/home/gasper/GitHub/GD_kuka_ros_project/install -G Unix Makefiles
