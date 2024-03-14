@@ -70,16 +70,16 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_py: /home/gasper/GitH
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianPose.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG brics_actuator/CartesianPose"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianTwist.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianTwist.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianTwist.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianTwist.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianTwist.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG brics_actuator/CartesianTwist"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
@@ -90,15 +90,15 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_py: /home/gasper/GitH
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianWrench.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianWrench.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianWrench.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianWrench.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_CartesianWrench.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG brics_actuator/CartesianWrench"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointAccelerations.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointAccelerations.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointAccelerations.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointAccelerations.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointAccelerations.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG brics_actuator/JointAccelerations"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
@@ -110,22 +110,22 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_py: /home/gasper/GitH
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointImpedances.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointImpedances.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointImpedances.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointImpedances.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointImpedances.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG brics_actuator/JointImpedances"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointPositions.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointPositions.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointPositions.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointPositions.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointPositions.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG brics_actuator/JointPositions"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointTorques.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointTorques.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointTorques.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointTorques.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointTorques.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG brics_actuator/JointTorques"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 
@@ -136,8 +136,8 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_py: /home/gasper/GitH
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointVelocities.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointVelocities.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointVelocities.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointVelocities.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg/_JointVelocities.py: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG brics_actuator/JointVelocities"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages/brics_actuator/msg
 

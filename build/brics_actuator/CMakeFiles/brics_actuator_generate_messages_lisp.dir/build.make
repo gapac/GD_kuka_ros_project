@@ -69,16 +69,16 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_lisp: /home/gasper/Gi
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianPose.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from brics_actuator/CartesianPose.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianTwist.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianTwist.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianTwist.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianTwist.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianTwist.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from brics_actuator/CartesianTwist.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
@@ -89,15 +89,15 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_lisp: /home/gasper/Gi
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianWrench.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianWrench.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianWrench.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianWrench.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/CartesianWrench.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from brics_actuator/CartesianWrench.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointAccelerations.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointAccelerations.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointAccelerations.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointAccelerations.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointAccelerations.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from brics_actuator/JointAccelerations.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
@@ -109,22 +109,22 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_lisp: /home/gasper/Gi
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointImpedances.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointImpedances.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointImpedances.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointImpedances.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointImpedances.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from brics_actuator/JointImpedances.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointPositions.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointPositions.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointPositions.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointPositions.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointPositions.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from brics_actuator/JointPositions.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointTorques.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointTorques.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointTorques.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointTorques.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointTorques.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from brics_actuator/JointTorques.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 
@@ -135,8 +135,8 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_lisp: /home/gasper/Gi
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointVelocities.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointVelocities.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointVelocities.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointVelocities.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg/JointVelocities.lisp: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from brics_actuator/JointVelocities.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp/ros/brics_actuator/msg
 

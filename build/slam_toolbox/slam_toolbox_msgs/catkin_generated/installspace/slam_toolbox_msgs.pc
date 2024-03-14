@@ -1,0 +1,8 @@
+prefix=/home/gasper/GitHub/GD_kuka_ros_project/install
+
+Name: slam_toolbox_msgs
+Description: Description of slam_toolbox_msgs
+Version: 1.5.7
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_srvs std_msgs geometry_msgs

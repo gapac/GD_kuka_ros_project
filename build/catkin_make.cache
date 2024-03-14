@@ -1,2 +1,2 @@
-brics_actuator:vodenje_robotov
+brics_actuator:slam_toolbox/slam_toolbox:slam_toolbox/slam_toolbox_msgs:slam_toolbox/slam_toolbox_rviz:vodenje_robotov
 -DCATKIN_DEVEL_PREFIX=/home/gasper/GitHub/GD_kuka_ros_project/devel -DCMAKE_INSTALL_PREFIX=/home/gasper/GitHub/GD_kuka_ros_project/install -G Unix Makefiles

@@ -69,17 +69,17 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_cpp: /home/gasper/Git
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from brics_actuator/CartesianPose.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianPose.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianTwist.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from brics_actuator/CartesianTwist.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianTwist.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -92,16 +92,16 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_cpp: /home/gasper/Git
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianVector.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/CartesianWrench.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from brics_actuator/CartesianWrench.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/CartesianWrench.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointAccelerations.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from brics_actuator/JointAccelerations.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointAccelerations.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -115,24 +115,24 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_cpp: /home/gasper/Git
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointImpedances.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from brics_actuator/JointImpedances.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointImpedances.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointPositions.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from brics_actuator/JointPositions.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointPositions.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointTorques.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from brics_actuator/JointTorques.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointTorques.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -145,8 +145,8 @@ brics_actuator/CMakeFiles/brics_actuator_generate_messages_cpp: /home/gasper/Git
 
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg
-/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointValue.msg
+/home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/Poison.msg
 /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator/JointVelocities.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from brics_actuator/JointVelocities.msg"
 	cd /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator && /home/gasper/GitHub/GD_kuka_ros_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg/JointVelocities.msg -Ibrics_actuator:/home/gasper/GitHub/GD_kuka_ros_project/src/brics_actuator/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p brics_actuator -o /home/gasper/GitHub/GD_kuka_ros_project/devel/include/brics_actuator -e /opt/ros/noetic/share/gencpp/cmake/..

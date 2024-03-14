@@ -1,0 +1,8 @@
+prefix=/home/gasper/GitHub/GD_kuka_ros_project/install
+
+Name: slam_toolbox_rviz
+Description: Description of slam_toolbox_rviz
+Version: 1.5.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz slam_toolbox_msgs

@@ -7,8 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/gasper/GitHub/GD_kuka_ros_project/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/gasper/GitHub/GD_kuka_ros_project/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/noetic/bin:/home/gasper/micromamba/condabin:/home/gasper/GitHub/GD_kuka_ros_project/.micromamba:/usr/lib/ccache:/home/gasper/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/gasper/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/gasper/GitHub/GD_kuka_ros_project/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/gasper/GitHub/GD_kuka_ros_project/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/gasper/GitHub/GD_kuka_ros_project/src:$ROS_PACKAGE_PATH"

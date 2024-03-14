@@ -56,3 +56,41 @@ make: *** [Makefile:121: cmTC_c1521/fast] Error 2
 
 
 
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d75fc/fast && /usr/bin/make -f CMakeFiles/cmTC_d75fc.dir/build.make CMakeFiles/cmTC_d75fc.dir/build
+make[1]: Entering directory '/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d75fc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_d75fc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d75fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d75fc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_d75fc.dir/CheckFunctionExists.c.o  -o cmTC_d75fc 
+/usr/bin/ld: CMakeFiles/cmTC_d75fc.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d75fc.dir/build.make:87: cmTC_d75fc] Error 1
+make[1]: Leaving directory '/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d75fc/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96721/fast && /usr/bin/make -f CMakeFiles/cmTC_96721.dir/build.make CMakeFiles/cmTC_96721.dir/build
+make[1]: Entering directory '/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96721.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_96721.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_96721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96721.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_96721.dir/CheckFunctionExists.c.o  -o cmTC_96721  /usr/lib/x86_64-linux-gnu/libblas.so 
+/usr/bin/ld: CMakeFiles/cmTC_96721.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_96721.dir/build.make:88: cmTC_96721] Error 1
+make[1]: Leaving directory '/home/gasper/GitHub/GD_kuka_ros_project/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96721/fast] Error 2
+
+
+

@@ -132,6 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gasper/GitHub/GD_kuka_ros_project/build/gtest/cmake_install.cmake")
   include("/home/gasper/GitHub/GD_kuka_ros_project/build/brics_actuator/cmake_install.cmake")
+  include("/home/gasper/GitHub/GD_kuka_ros_project/build/slam_toolbox/slam_toolbox_msgs/cmake_install.cmake")
+  include("/home/gasper/GitHub/GD_kuka_ros_project/build/slam_toolbox/slam_toolbox/cmake_install.cmake")
+  include("/home/gasper/GitHub/GD_kuka_ros_project/build/slam_toolbox/slam_toolbox_rviz/cmake_install.cmake")
   include("/home/gasper/GitHub/GD_kuka_ros_project/build/vodenje_robotov/cmake_install.cmake")
 
 endif()

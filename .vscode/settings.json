@@ -1,3 +1,13 @@
 {
-    "ros.distro": "noetic"
+    "ros.distro": "noetic",
+    "python.autoComplete.extraPaths": [
+        "/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages",
+        "/home/gasper/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gasper/GitHub/GD_kuka_ros_project/devel/lib/python3/dist-packages",
+        "/home/gasper/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
 }
