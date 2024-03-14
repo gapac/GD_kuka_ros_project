@@ -1,0 +1,28 @@
+<launch>
+        <node   pkg="tf2_ros"
+                type="static_transform_publisher"
+                name="r1_world" 
+                args="2 1 0 0.785 0 0 world robot_1">
+        </node>
+
+        <node   pkg="tf2_ros"
+                type="static_transform_publisher"
+                name="r2_r1" 
+                args="1 0 0 0 0 0 robot_1 robot_2">
+        </node>
+
+        <!--
+        <node   pkg="vodenje_robotov"
+                type="robot_tf2_broadcast.py"
+                name="robot_tf_br" 
+                output="screen">
+        </node>
+        -->
+        <!--
+        <node   pkg="vodenje_robotov"
+                type="robot_tf2_listener.py"
+                name="robot_tf_ls" 
+                output="screen">
+        </node>       
+        -->
+</launch>

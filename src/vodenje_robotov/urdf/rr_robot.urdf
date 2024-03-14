@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<robot name="robot2">
+   
+    <material name="grey">
+        <color rgba="0.2 0.2 0.2 1"/>
+    </material>
+
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.3 0.1 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+   
+   <!-- globalni koordinatni sistem -->
+    <link name="world"></link>
+
+    <!-- lega baze -->
+    <joint name="world_to_base" type="fixed">
+        <parent link="world" />
+        <child link="base_link" />
+        <origin xyz="2 0 0" rpy="0 0 0"/>
+    </joint>
+
+   <!-- baza -->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 1.1" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.2 0.2 2.2" />
+            </geometry>
+            <material name="orange"/>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 1.1" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.2 0.2 2.2" />
+            </geometry>
+        </collision>
+
+        <inertial>
+           <mass value="20"/>
+           <origin xyz="0 0 1.1" rpy="0 0 0"/>
+           <inertia ixx="0.13" ixy="0.0" ixz="0.0" iyy="8.1" iyz="0.0" izz="0.13"/>   
+        </inertial>
+    </link>
+
+    <!-- prvi sklep -->
+    <joint name="first_joint" type="revolute">
+        <origin xyz="0.17 0.0 2.1" rpy="-1.5708 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="first_link"/>
+        <axis xyz="1 0 0.0"/>
+        <dynamics damping="0.3" friction="0.5"/>
+        <limit lower="-3" upper="3" effort="1000" velocity="0.2"/>
+    </joint>
+   
+
+    <!-- prvi segment -->
+    <link name="first_link">
+        <visual>
+            <origin xyz="0.0 0 0.5" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.14 0.14 1.2" />
+            </geometry>
+             <material name="white"/>
+        </visual>
+
+        <collision>
+            <origin xyz="0.0 0 0.5" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.14 0.14 1.2" />
+            </geometry>
+        </collision>
+
+        <inertial>
+           <mass value="1"/>
+           <origin xyz="0.0 0 0.5" rpy="0 0 0"/>
+           <inertia ixx="2" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/>   
+        </inertial>
+
+    </link>
+
+    <!-- drugi sklep -->
+    <joint name="second_joint" type="revolute">
+        <origin xyz="0.14 0.0 1.0" rpy="0.0 0.0 0.0"/>
+        <parent link="first_link"/>
+        <child link="second_link"/>
+        <axis xyz="1 0 0.0"/>
+        <dynamics damping="0.3" friction="0.5"/>
+        <limit lower="-3" upper="3" effort="400" velocity="0.5"/>
+    </joint>
+
+
+    <!-- drugi segment -->
+    <link name="second_link">
+        <visual>
+            <origin xyz="0.0 0 0.45" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.14 0.14 1.1" />
+            </geometry>
+             <material name="orange"/>
+        </visual>
+
+        <collision>
+            <origin xyz="0.0 0 0.45" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.14 0.14 1.1" />
+            </geometry>
+        </collision>
+
+        <inertial>
+           <mass value="1"/>
+           <origin xyz="0.0 0 0.45" rpy="0 0 0"/>
+           <inertia ixx="2" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/>   
+        </inertial>
+
+    </link>
+
+    <!-- TCP -->
+    <joint name="TCP_joint" type="fixed">
+        <origin xyz="0.0 0.0 1" rpy="0.0 0.0 0.0"/>
+        <parent link="second_link"/>
+        <child link="tool0"/>
+    </joint>
+
+    <!-- vrh robota -->
+    <link name="tool0"/>
+
+    <!-- lidar -->
+    <link name="lidar_link">
+        <visual>
+            <origin xyz="0.0 0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.2 0.2 0.2" />
+            </geometry>
+             <material name="blue"/>
+        </visual>
+
+        <collision>
+            <origin xyz="0.0 0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.2 0.2 0.2" />
+            </geometry>
+        </collision>
+
+        <inertial>
+           <mass value="1"/>
+           <origin xyz="0.0 0 0.0" rpy="0 0 0"/>
+           <inertia ixx="2" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.02"/>   
+        </inertial>
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="-1 1 1.5" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+    </joint>
+
+
+    <!-- TRANSMISSIONS -->
+    <!-- prvi sklep -->
+    <transmission name="first_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="first_joint">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor1">
+            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- drugi sklep-->
+    <transmission name="second_trans">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="second_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface> 
+        </joint>
+        <actuator name="motor2">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface> 
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    
+
+    
+    <!-- GAZEBO -->
+    <!-- material -->
+    <gazebo reference="base_link">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo reference="first_link">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="second_link">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <!-- ros_control plugin -->
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/rr_robot</robotNamespace>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+        </plugin>
+    </gazebo>
+
+    <!-- gazebo joint state publisher -->
+    <gazebo>
+        <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+            <robotNamespace>/rr_robot</robotNamespace>
+            <jointName>first_joint, second_joint</jointName>
+            <updateRate>50</updateRate>
+        </plugin>
+    </gazebo> 
+
+    
+    <!-- simuliraj lidar -->
+    <gazebo reference="lidar_link">
+        <material>Gazebo/Yellow</material>
+        <sensor type="ray" name="SICK_lidar">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>40</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>720</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-1.570796</min_angle>
+                        <max_angle>1.570796</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.20</min>
+                    <max>2.0</max>
+                    <resolution>0.01</resolution>
+                </range>
+                <noise>
+                    <type>gaussian</type>
+                     <!-- Noise parameters based on published spec for Hokuyo laser
+                    achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+                    stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+                    reading. -->
+                    <mean>0.0</mean>
+                    <stddev>0.01</stddev>
+                </noise>
+            </ray>
+            <plugin name="laser_controller" filename="libgazebo_ros_laser.so">
+                <topicName>/rr_robot/laser/scan</topicName>
+                <frameName>lidar_link</frameName>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+</robot>
+
+    

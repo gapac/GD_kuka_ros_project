@@ -1,0 +1,51 @@
+<launch>
+
+    <!-- definiraj URDF datoteko -->
+    <param  name="robot_description"
+            textfile="$(find vodenje_robotov)/urdf/rr2_robot.urdf" />
+
+    <!-- nalozi yaml datoteko z nastavitvami krmilnika -->
+    <rosparam file="$(find vodenje_robotov)/config/trajectory_controller.yaml" command="load"/>
+
+    <!-- nastavi cas kot cas simulacije -->
+    <param name="/use_sim_time" value="true"/>
+
+    <!-- GAZEBO -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model rr_robot" />
+
+    
+    <!-- nalozi krmilnike  -->
+    <node   name="controller_spawner" 
+            pkg="controller_manager" 
+            type="spawner" 
+            respawn="false"
+            output="screen" 
+            ns="/rr_robot" 
+            args="  arm_controller
+                    joint_state_controller"/>
+                   
+        <!-- 
+    <node   name="joint_state_publisher_gui"
+            pkg="joint_state_publisher_gui"
+            type="joint_state_publisher_gui" />
+        -->
+
+    <!-- robot state publisher -->
+    <node name="robot_state_publisher"
+        pkg="robot_state_publisher" 
+        type="robot_state_publisher"
+        respawn="false" 
+        output="screen">
+            <!-- dodaj namespace -->
+            <remap from="/joint_states" to="/rr_robot/joint_states" />
+    </node>
+
+    <!-- RViz -->
+    <node   name="rviz"
+            pkg="rviz"
+            type="rviz"
+            args="-d $(find vodenje_robotov)/rr_robot.rviz" />
+
+</launch>
+
