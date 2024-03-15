@@ -1,0 +1,5 @@
+# Clone the submodule
+git submodule update --init --recursive
+
+# Install system dependencies of a package
+rosdep install slam_toolbox
