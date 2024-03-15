@@ -1,5 +1,10 @@
 # Clone the submodule
 git submodule update --init --recursive
+cd src/slam_toolbox/
+git checkout noetic-devel
 
 # Install system dependencies of a package
 rosdep install slam_toolbox
+
+# Standard build
+catkin_make
