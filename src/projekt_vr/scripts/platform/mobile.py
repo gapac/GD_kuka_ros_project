@@ -4,6 +4,9 @@ from geometry_msgs.msg import Twist, Vector3
 import rospy
 
 
+__all__ = ("MobileController",)
+
+
 class MobileController:
     """
     Mobile platform controller.

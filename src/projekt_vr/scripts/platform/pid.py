@@ -2,6 +2,9 @@ import numpy as np
 import rospy
 
 
+__all__ = ("PIDController",)
+
+
 class PIDController:
     def __init__(self, kp: float, ki: float, kd: float, integral_limit = np.inf) -> None:
         self.kp = kp
@@ -31,4 +34,5 @@ class PIDController:
         self.isum =  np.clip(self.isum  + error * delta_t, -self.ilim, self.ilim)
         value = self.kp * error + self.ki * self.isum + self.kd * (error - self.last_err) / delta_t
         self.last_err = error
+
         return value
