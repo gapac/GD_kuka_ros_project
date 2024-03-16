@@ -14,7 +14,7 @@ class PIDController:
 
         self.last_err = 0
         self.isum = 0
-        self.last_t = rospy.get_time()
+        self.last_t = 0
 
     def zero(self):
         """
