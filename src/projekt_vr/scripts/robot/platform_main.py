@@ -15,6 +15,8 @@ class Platform:
     """
     The main class for kuka platform.
     """
+    LASER_WAIT_SLEEP = 1
+
     def __init__(
         self,
         node: str,
@@ -34,10 +36,21 @@ class Platform:
     def init_node(self):
         rospy.init_node(self.node, anonymous=True)
 
-    def _on_shutdown(self):
-        self.stop_tracking()
+    def wait_ready(self):
+        while self.running:
+            data = self.laser.get_distances()
+            if data is not None:
+                rospy.loginfo("LASER READY")
+                break
 
-    def stop_tracking(self):
+            rospy.loginfo("LASER NOT READY, retrying")
+            rospy.sleep(Platform.LASER_WAIT_SLEEP)
+
+    def _on_shutdown(self):
+        self.stop()
+        self.mobile.stop_movement()
+
+    def stop(self):
         self.running = False
 
     def track_closest_object(
@@ -50,7 +63,6 @@ class Platform:
         self.pid_x.zero()
         self.pid_rz.zero()
         while self.running:
-            rospy.sleep(0.100)
             distances = self.laser.get_distances()
             if distances is None:
                 rospy.logerr("Could not laser data, stopping tracking.")
@@ -65,5 +77,6 @@ class Platform:
             x_speed = np.clip(self.pid_x.step(target_x - distance), -0.2, 0.2)
             rot_speed = np.clip(self.pid_rz.step(angle), -15, 15)
             self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
+            rospy.sleep(0.100)
 
         self.mobile.stop_movement()

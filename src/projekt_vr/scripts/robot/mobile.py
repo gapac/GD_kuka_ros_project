@@ -29,7 +29,6 @@ class MobileController:
 
         self.vel_pub = rospy.Publisher(vel_topic, Twist, queue_size=1)
         self.retry_interval = retry_interval
-        rospy.on_shutdown(self._on_shutdown)  # Stop the robot on rospy shutdown
 
     def control_speeds(self, x: float, y: float, z: float, rot_z: float):
         """
@@ -66,6 +65,3 @@ class MobileController:
                 rospy.logdebug("Connection reliably published.")
             else:
                 rospy.sleep(self.retry_interval)
-
-    def _on_shutdown(self):
-        self.stop_movement()
