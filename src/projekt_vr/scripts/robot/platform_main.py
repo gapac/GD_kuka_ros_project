@@ -55,7 +55,6 @@ class Platform:
 
     def track_closest_object(
         self,
-        min_distance: float = 0.050,
         max_distance: float = 2.0,
         target_x: float = 0.5
     ):
@@ -68,14 +67,29 @@ class Platform:
                 rospy.logerr("Could not laser data, stopping tracking.")
                 break
 
-            angles = self.laser.get_indices_angles()
-            dist_angle = np.array(zip(distances, angles))
+            angles: np.ndarray = np.array(self.laser.get_indices_angles())
+            distances: np.ndarray = np.array(distances)
 
-            # The error distance and error angle
-            distance, angle = dist_angle[(distances < max_distance) & (distances > min_distance)]
-            
+            # Only consider angles that are -90 + 90 degrees relative to the X (forward) axis
+            angle_mask =  (angles > -90) & (angles < 90)
+            angles = angles[angle_mask]
+            distances = distances[angle_mask]
+
+            # Filter out points further than max_distance
+            distance_mask = distances < max_distance
+            angles = angles[distance_mask]
+            distances = distances[distance_mask]
+
+            # Get closest distance and its angle
+            idx = distances.argmin()  # Alternative is to use distance gradients over angle
+            distance = distances[idx]
+            angle = angles[idx]
+
+            # Safety clipping
             x_speed = np.clip(self.pid_x.step(target_x - distance), -0.2, 0.2)
             rot_speed = np.clip(self.pid_rz.step(angle), -15, 15)
+
+            # Control
             self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
             rospy.sleep(0.100)
 
