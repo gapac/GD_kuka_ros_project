@@ -32,7 +32,7 @@ class Platform:
         self.node = node
 
         rospy.on_shutdown(self._on_shutdown)
-    
+
     def init_node(self):
         rospy.init_node(self.node, anonymous=True)
 
@@ -86,8 +86,8 @@ class Platform:
             angle = angles[idx]
 
             # Safety clipping
-            x_speed = np.clip(self.pid_x.step(target_x - distance), -0.2, 0.2)
-            rot_speed = np.clip(self.pid_rz.step(angle), -15, 15)
+            x_speed = np.clip(self.pid_x.step(distance, target_x), -0.2, 0.2)
+            rot_speed = np.clip(self.pid_rz.step(angle), -0.5, 0.5)
 
             # Control
             self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
