@@ -61,6 +61,7 @@ class Platform:
         # TODO: test if it works
         self.pid_x.zero()
         self.pid_rz.zero()
+        plt.ion()
         while self.running:
             distances = self.laser.get_distances()
             if distances is None:
@@ -77,18 +78,16 @@ class Platform:
             distances = distances[angle_mask]
 
             # Filter out points further than max_distance
+            #distances[np.isinf(distances)] = 20
             distance_mask = distances < max_distance
             angles = angles[distance_mask]
             distances = distances[distance_mask]
-
-            gradients = np.gradient(distances, angles)
-            plt.plot(angles, gradients)
-            plt.show()
-
-
+            #gradients = np.gradient(distances, angles)
+            # Filter out points that are too close to each other
             if len(distances):
-            # Get closest distance and its angle
-                idx = distances.argmin()  # Alternative is to use distance gradients over angle
+                # Get closest distance and its angle
+
+                idx = distances.argmin()
                 distance = distances[idx]
                 angle = angles[idx]
 
@@ -97,11 +96,8 @@ class Platform:
                 rot_speed = np.clip(self.pid_rz.step(angle), -0.5, 0.5)
 
                 # Control
-                #self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
-                self.mobile.stop_movement()
+                self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
 
-            rospy.sleep(0.100)
+            rospy.sleep(0.200)
 
         self.mobile.stop_movement()
-
-        

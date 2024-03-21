@@ -52,5 +52,5 @@ class LaserScanner:
         slope = 360.0 / len_
         idx_offset = self.zero_angle_idx
         offset_angle = -slope * idx_offset  # 0 degrees = slope * idx_offset + offset_angle => offset_angle = 0 - slope * idx_offset
-        rospy.loginfo(offset_angle)
+        #rospy.loginfo(offset_angle)
         return list(map(lambda idx: slope * idx + offset_angle, range(len_)))
