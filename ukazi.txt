@@ -5,6 +5,15 @@ git checkout noetic-devel
 
 # Install system dependencies of a package
 rosdep install slam_toolbox
+sudo apt-get install ros-noetic-tf2-sensor-msgs
+sudo apt-get install ros-noetic-move-base-msgs
+sudo apt-get install ros-noetic-sensor-msgs
 
 # Standard build
 catkin_make
+
+# Nastavitev tf
+rosrun tf2_ros static_transform_publisher 0.13 0 0 0 0 0 base_footprint laser
+
+# Nastavitev controllerja
+oubot@youbot-NUC10i5FNH:~/catkin_ws_vr_1/devel/lib/joy$ rosrun joy joy_node

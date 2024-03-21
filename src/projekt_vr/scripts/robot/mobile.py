@@ -1,7 +1,9 @@
 from __future__ import annotations  # Allows us to annotate list[float] instead of typing.List[float]
 from geometry_msgs.msg import Twist, Vector3
+from sensor_msgs.msg import Joy
 
 import rospy
+import numpy as np
 
 
 __all__ = ("MobileController",)
@@ -28,6 +30,7 @@ class MobileController:
         self.speed_msg = Twist()
 
         self.vel_pub = rospy.Publisher(vel_topic, Twist, queue_size=1)
+        self.subscriber = rospy.Subscriber("/joy", Joy, self.joy_callback, queue_size=1)
         self.retry_interval = retry_interval
 
     def control_speeds(self, x: float, y: float, z: float, rot_z: float):
@@ -38,6 +41,15 @@ class MobileController:
         """
         self._set_speeds(x, y, z, rot_z)
         self._publish_fast()
+
+    def gamepad_control(self):
+        # Control
+        while not rospy.is_shutdown():
+            self._publish_fast()
+            rospy.sleep(0.100)
+
+    def joy_callback(self, msg: Joy):
+        self._set_speeds(-np.clip(msg.axes[1], -0.2, 0.2), 0, 0, np.clip(msg.axes[0], -0.8, 0.8))
 
     def _set_speeds(self, x: float, y: float, z: float, rot_z: float):
         self.speed_msg.linear = Vector3(x, y, z)

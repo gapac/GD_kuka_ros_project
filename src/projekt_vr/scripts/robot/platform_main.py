@@ -1,11 +1,15 @@
 from __future__ import annotations  # Allows us to annotate list[float] instead of typing.List[float]
 
+from sensor_msgs.msg import LaserScan
+from sensor_msgs.msg import Joy
+
 from .laser import LaserScanner
 from .mobile import MobileController
 from .pid import PIDController
 
 import numpy as np
 import rospy
+import matplotlib.pyplot as plt
 
 
 __all__ = ("Platform",)
@@ -19,22 +23,18 @@ class Platform:
 
     def __init__(
         self,
-        node: str,
         mobile: MobileController,
         laser: LaserScanner,
     ) -> None:
         self.mobile = mobile
         self.laser = laser
+        self.xyz_data = None
 
         self.pid_x = PIDController(0.2, 0.0, 0.0)
-        self.pid_rz = PIDController(0.001, 0.0, 0.0)
+        self.pid_rz = PIDController(0.01, 0.0, 0.0)
         self.running = True
-        self.node = node
 
         rospy.on_shutdown(self._on_shutdown)
-
-    def init_node(self):
-        rospy.init_node(self.node, anonymous=True)
 
     def wait_ready(self):
         while self.running:
@@ -72,6 +72,7 @@ class Platform:
 
             # Only consider angles that are -90 + 90 degrees relative to the X (forward) axis
             angle_mask =  (angles > -90) & (angles < 90)
+
             angles = angles[angle_mask]
             distances = distances[angle_mask]
 
@@ -80,17 +81,27 @@ class Platform:
             angles = angles[distance_mask]
             distances = distances[distance_mask]
 
+            gradients = np.gradient(distances, angles)
+            plt.plot(angles, gradients)
+            plt.show()
+
+
+            if len(distances):
             # Get closest distance and its angle
-            idx = distances.argmin()  # Alternative is to use distance gradients over angle
-            distance = distances[idx]
-            angle = angles[idx]
+                idx = distances.argmin()  # Alternative is to use distance gradients over angle
+                distance = distances[idx]
+                angle = angles[idx]
 
-            # Safety clipping
-            x_speed = np.clip(self.pid_x.step(distance, target_x), -0.2, 0.2)
-            rot_speed = np.clip(self.pid_rz.step(angle), -0.5, 0.5)
+                # Safety clipping
+                x_speed = -np.clip(self.pid_x.step(distance - target_x), -0.2, 0.2)
+                rot_speed = np.clip(self.pid_rz.step(angle), -0.5, 0.5)
 
-            # Control
-            self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
+                # Control
+                #self.mobile.control_speeds(x_speed, 0, 0, rot_speed)
+                self.mobile.stop_movement()
+
             rospy.sleep(0.100)
 
         self.mobile.stop_movement()
+
+        
