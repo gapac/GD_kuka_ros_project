@@ -6,6 +6,7 @@ from sensor_msgs.msg import Joy
 from .laser import LaserScanner
 from .mobile import MobileController
 from .pid import PIDController
+from .arm import ArmController
 
 import numpy as np
 import rospy
@@ -25,9 +26,11 @@ class Platform:
         self,
         mobile: MobileController,
         laser: LaserScanner,
+        arm: ArmController
     ) -> None:
         self.mobile = mobile
         self.laser = laser
+        self.arm = arm
         self.xyz_data = None
 
         self.pid_x = PIDController(0.2, 0.0, 0.0)
@@ -92,6 +95,12 @@ class Platform:
                 angle = angles[idx]
 
                 # Safety clipping
+                dist_error = abs(distance - target_x)
+                if dist_error < 0.1:
+                    self.mobile.control_speeds(0, 0, 0, 0)
+                    self.give_chocolate()
+                    rospy.sleep(5)
+
                 x_speed = -np.clip(self.pid_x.step(distance - target_x), -0.2, 0.2)
                 rot_speed = np.clip(self.pid_rz.step(angle), -0.5, 0.5)
 
@@ -101,3 +110,21 @@ class Platform:
             rospy.sleep(0.200)
 
         self.mobile.stop_movement()
+
+
+    def give_chocolate(self):
+        arm = self.arm
+        # GRIP OFF
+        arm.open_gripper()
+        arm.move_arm(0.1)
+        arm.move_arm(0.1, joint="arm_joint_2")
+        arm.move_arm(0.1, joint="arm_joint_3")
+        arm.move_arm(0.1, joint="arm_joint_4")
+        arm.move_arm(0.1, joint="arm_joint_5")
+        arm.move_arm(3.05)
+        rospy.sleep(2)
+        arm.move_arm(-2.85, joint="arm_joint_3")
+        # # GRIP ON
+        arm.close_gripper()
+        arm.move_arm(-1.0, joint="arm_joint_3")
+        arm.move_arm(1.5, joint="arm_joint_2")

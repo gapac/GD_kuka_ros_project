@@ -2,3 +2,9 @@
 	path = src/slam_toolbox
 	url = https://github.com/SteveMacenski/slam_toolbox.git
 	branch = noetic-devel
+[submodule "src/youbot_description"]
+	path = src/youbot_description
+	url = https://github.com/a2s-institute/youbot_description.git
+[submodule "src/youbot_moveit"]
+	path = src/youbot_moveit
+	url = https://github.com/seanbai2008/youbot_moveit.git

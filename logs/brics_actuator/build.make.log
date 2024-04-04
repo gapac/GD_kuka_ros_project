@@ -1,0 +1,23 @@
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointTorques
+[  0%] Built target _brics_actuator_generate_messages_check_deps_CartesianVector
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointVelocities
+[  0%] Built target _brics_actuator_generate_messages_check_deps_Poison
+[  0%] Built target _brics_actuator_generate_messages_check_deps_CartesianWrench
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointConstraint
+[  0%] Built target _brics_actuator_generate_messages_check_deps_CartesianPose
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointAccelerations
+[  0%] Built target _brics_actuator_generate_messages_check_deps_CartesianTwist
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointImpedances
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointValue
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _brics_actuator_generate_messages_check_deps_JointPositions
+[ 19%] Built target brics_actuator_generate_messages_lisp
+[ 45%] Built target brics_actuator_generate_messages_cpp
+[ 59%] Built target brics_actuator_generate_messages_py
+[ 79%] Built target brics_actuator_generate_messages_nodejs
+[100%] Built target brics_actuator_generate_messages_eus
+[100%] Built target brics_actuator_generate_messages

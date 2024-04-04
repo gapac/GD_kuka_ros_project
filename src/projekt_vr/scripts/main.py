@@ -6,8 +6,9 @@ Main node file for Kuka mobile platform and arm.
 from robot import *
 import rospy
 
+
 rospy.init_node("project_kuka_platform", anonymous=True)
-platform = Platform(MobileController(), LaserScanner(zero_angle_index=270))
+platform = Platform(MobileController(), LaserScanner(zero_angle_index=270), ArmController())
 platform.wait_ready()
 platform.track_closest_object(max_distance=2, target_x=0.5)
 #platform.mobile.gamepad_control()

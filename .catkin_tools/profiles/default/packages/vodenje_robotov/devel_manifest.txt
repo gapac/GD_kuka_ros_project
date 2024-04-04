@@ -1,0 +1,5 @@
+vodenje_robotov
+/home/gasper/GitHub/GD_kuka_ros_project/devel/.private/vodenje_robotov/cmake.lock /home/gasper/GitHub/GD_kuka_ros_project/devel/./cmake.lock
+/home/gasper/GitHub/GD_kuka_ros_project/devel/.private/vodenje_robotov/share/vodenje_robotov/cmake/vodenje_robotovConfig-version.cmake /home/gasper/GitHub/GD_kuka_ros_project/devel/share/vodenje_robotov/cmake/vodenje_robotovConfig-version.cmake
+/home/gasper/GitHub/GD_kuka_ros_project/devel/.private/vodenje_robotov/share/vodenje_robotov/cmake/vodenje_robotovConfig.cmake /home/gasper/GitHub/GD_kuka_ros_project/devel/share/vodenje_robotov/cmake/vodenje_robotovConfig.cmake
+/home/gasper/GitHub/GD_kuka_ros_project/devel/.private/vodenje_robotov/lib/pkgconfig/vodenje_robotov.pc /home/gasper/GitHub/GD_kuka_ros_project/devel/lib/pkgconfig/vodenje_robotov.pc

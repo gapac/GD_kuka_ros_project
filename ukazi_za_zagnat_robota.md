@@ -3,6 +3,7 @@
 
 
 
+
 ## ZAGON
 ### ROBOT KUKA YOUBOT
 Za zagon robota youbot in povezavo s ssh sledite naslednjim korakom:

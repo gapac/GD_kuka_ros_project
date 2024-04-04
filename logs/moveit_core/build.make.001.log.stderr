@@ -1,0 +1,335 @@
+In file included from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:35[m[K:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:46:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+   46 | class MoveItErrorCode : public [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:46:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KMoveItErrorCodes[m[K’
+   46 | class MoveItErrorCode : public moveit_msgs::[01;31m[KMoveItErrorCodes[m[K
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:48:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   48 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:48:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:47:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   47 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:51:31:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMoveItErrorCode[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   51 |   MoveItErrorCode(int code = 0[01;31m[K)[m[K
+      |                               [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:[m[K In function ‘[01m[Kint moveit::core::MoveItErrorCode(int)[m[K’:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kval[m[K’ was not declared in this scope
+   53 |     [01;31m[Kval[m[K = code;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:54:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   54 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:[m[K At global scope:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:55:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   55 |   MoveItErrorCode(const [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& code)
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:55:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   55 |   MoveItErrorCode(const moveit_msgs::MoveItErrorCodes[01;31m[K&[m[K code)
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:55:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   55 |   MoveItErrorCode[34m[K([m[Kconst moveit_msgs::MoveItErrorCodes[01;31m[K&[m[K code)
+      |                  [34m[K~[m[K                                   [01;31m[K^[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:55:56:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[Kcode[m[K’
+   55 |   MoveItErrorCode(const moveit_msgs::MoveItErrorCodes& [01;31m[Kcode[m[K)
+      |                                                        [01;31m[K^~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexplicit[m[K’ outside class declaration
+   59 |   [01;31m[Kexplicit[m[K operator bool() const
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:59:28:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kmoveit::core::operator bool()[m[K’ cannot have cv-qualifier
+   59 |   explicit operator bool() [01;31m[Kconst[m[K
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:59:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::operator bool()[m[K’ must be a nonstatic member function
+   59 |   explicit [01;31m[Koperator[m[K bool() const
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:63:21:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+   63 |   explicit operator [01;31m[Kstd[m[K::string() const
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:67:32:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kbool moveit::core::operator==(int)[m[K’ cannot have cv-qualifier
+   67 |   bool operator==(const int c) [01;31m[Kconst[m[K
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:67:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool moveit::core::operator==(int)[m[K’ must have an argument of class or enumerated type
+   67 |   bool [01;31m[Koperator[m[K==(const int c) const
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:71:32:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kbool moveit::core::operator!=(int)[m[K’ cannot have cv-qualifier
+   71 |   bool operator!=(const int c) [01;31m[Kconst[m[K
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:71:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool moveit::core::operator!=(int)[m[K’ must have an argument of class or enumerated type
+   71 |   bool [01;31m[Koperator[m[K!=(const int c) const
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:77:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kostream[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   77 | std::[01;31m[Kostream[m[K& operator<<(std::ostream& out, const MoveItErrorCode& e);
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:38:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+   37 | #include <moveit_msgs/MoveItErrorCodes.h>
+  +++ |+[32m[K#include <ostream>[m[K
+   38 | 
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/moveit_error_code.h:80:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   80 | [01;31m[K}[m[K  // namespace moveit
+      | [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:41:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   41 | const char* MoveItErrorCode::toString(const [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code)
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:41:74:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   41 | const char* MoveItErrorCode::toString(const moveit_msgs::MoveItErrorCodes[01;31m[K&[m[K error_code)
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:41:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   41 | const char* MoveItErrorCode::toString[34m[K([m[Kconst moveit_msgs::MoveItErrorCodes[01;31m[K&[m[K error_code)
+      |                                      [34m[K~[m[K                                   [01;31m[K^[m[K
+      |                                                                          [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:41:76:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kerror_code[m[K’
+   41 | const char* MoveItErrorCode::toString(const moveit_msgs::MoveItErrorCodes& [01;31m[Kerror_code[m[K)
+      |                                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:102:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kostream[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  102 | std::[01;31m[Kostream[m[K& operator<<(std::ostream& out, const MoveItErrorCode& e)
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/moveit_error_code.cpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ostream[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+   35 | #include <moveit/utils/moveit_error_code.h>
+  +++ |+[32m[K#include <ostream>[m[K
+   36 | 
+make[2]: *** [utils/CMakeFiles/moveit_utils.dir/build.make:89: utils/CMakeFiles/moveit_utils.dir/src/moveit_error_code.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:37[m[K:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:53:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   53 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::PlanningScene& msg);
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:53:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   53 | bool isEmpty(const moveit_msgs::PlanningScene[01;31m[K&[m[K msg);
+      |                                              [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:53:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   53 | bool isEmpty[34m[K([m[Kconst moveit_msgs::PlanningScene[01;31m[K&[m[K msg);
+      |             [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:53:48:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   53 | bool isEmpty(const moveit_msgs::PlanningScene& [01;31m[Kmsg[m[K);
+      |                                                [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:56:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   56 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::PlanningSceneWorld& msg);
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:56:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   56 | bool isEmpty(const moveit_msgs::PlanningSceneWorld[01;31m[K&[m[K msg);
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:56:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   56 | bool isEmpty[34m[K([m[Kconst moveit_msgs::PlanningSceneWorld[01;31m[K&[m[K msg);
+      |             [34m[K~[m[K                                     [01;31m[K^[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:56:53:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   56 | bool isEmpty(const moveit_msgs::PlanningSceneWorld& [01;31m[Kmsg[m[K);
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:59:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   59 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::RobotState& msg);
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:59:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   59 | bool isEmpty(const moveit_msgs::RobotState[01;31m[K&[m[K msg);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:59:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   59 | bool isEmpty[34m[K([m[Kconst moveit_msgs::RobotState[01;31m[K&[m[K msg);
+      |             [34m[K~[m[K                             [01;31m[K^[m[K
+      |                                           [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:59:45:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   59 | bool isEmpty(const moveit_msgs::RobotState& [01;31m[Kmsg[m[K);
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:62:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   62 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::Constraints& msg);
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:62:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   62 | bool isEmpty(const moveit_msgs::Constraints[01;31m[K&[m[K msg);
+      |                                            [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:62:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   62 | bool isEmpty[34m[K([m[Kconst moveit_msgs::Constraints[01;31m[K&[m[K msg);
+      |             [34m[K~[m[K                              [01;31m[K^[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/include/moveit/utils/message_checks.h:62:46:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   62 | bool isEmpty(const moveit_msgs::Constraints& [01;31m[Kmsg[m[K);
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   43 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::PlanningScene& msg)
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:43:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   43 | bool isEmpty(const moveit_msgs::PlanningScene[01;31m[K&[m[K msg)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:43:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   43 | bool isEmpty[34m[K([m[Kconst moveit_msgs::PlanningScene[01;31m[K&[m[K msg)
+      |             [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:43:48:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   43 | bool isEmpty(const moveit_msgs::PlanningScene& [01;31m[Kmsg[m[K)
+      |                                                [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:49:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   49 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::PlanningSceneWorld& msg)
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:49:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   49 | bool isEmpty(const moveit_msgs::PlanningSceneWorld[01;31m[K&[m[K msg)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:49:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   49 | bool isEmpty[34m[K([m[Kconst moveit_msgs::PlanningSceneWorld[01;31m[K&[m[K msg)
+      |             [34m[K~[m[K                                     [01;31m[K^[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:49:53:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   49 | bool isEmpty(const moveit_msgs::PlanningSceneWorld& [01;31m[Kmsg[m[K)
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:54:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   54 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::RobotState& msg)
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:54:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   54 | bool isEmpty(const moveit_msgs::RobotState[01;31m[K&[m[K msg)
+      |                                           [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:54:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   54 | bool isEmpty[34m[K([m[Kconst moveit_msgs::RobotState[01;31m[K&[m[K msg)
+      |             [34m[K~[m[K                             [01;31m[K^[m[K
+      |                                           [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:54:45:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   54 | bool isEmpty(const moveit_msgs::RobotState& [01;31m[Kmsg[m[K)
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:66:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ does not name a type
+   66 | bool isEmpty(const [01;31m[Kmoveit_msgs[m[K::Constraints& constr)
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:66:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   66 | bool isEmpty(const moveit_msgs::Constraints[01;31m[K&[m[K constr)
+      |                                            [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:66:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   66 | bool isEmpty[34m[K([m[Kconst moveit_msgs::Constraints[01;31m[K&[m[K constr)
+      |             [34m[K~[m[K                              [01;31m[K^[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/utils/src/message_checks.cpp:66:46:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kconstr[m[K’
+   66 | bool isEmpty(const moveit_msgs::Constraints& [01;31m[Kconstr[m[K)
+      |                                              [01;31m[K^~~~~~[m[K
+make[2]: *** [utils/CMakeFiles/moveit_utils.dir/build.make:76: utils/CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3438: utils/CMakeFiles/moveit_utils.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:37[m[K:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:153:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  153 |       boost::function<void(const geometry_msgs::Pose&, const std::vector<double>&, [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes&)>;
+      |                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:153:114:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in functional cast [[01;31m[K-fpermissive[m[K]
+  153 |       boost::function<void(const geometry_msgs::Pose&, const std::vector<double>&, moveit_msgs::MoveItErrorCodes&[01;31m[K)[m[K>;
+      |                                                                                                                  [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:153:115:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |       boost::function<void(const geometry_msgs::Pose&, const std::vector<double>&, moveit_msgs::MoveItErrorCodes&)[01;31m[K>[m[K;
+      |                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:169:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  169 |                 std::vector<double>& solution, [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:211:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  211 |                    std::vector<double>& solution, [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:231:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  231 |                    [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:249:57:[m[K [01;31m[Kerror: [m[K‘[01m[KIKCallbackFn[m[K’ does not name a type
+  249 |                    std::vector<double>& solution, const [01;31m[KIKCallbackFn[m[K& solution_callback,
+      |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:250:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  250 |                    [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:271:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIKCallbackFn[m[K’ does not name a type
+  271 |                    const [01;31m[KIKCallbackFn[m[K& solution_callback, moveit_msgs::MoveItErrorCodes& error_code,
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:271:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  271 |                    const IKCallbackFn& solution_callback, [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:298:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIKCallbackFn[m[K’ does not name a type
+  298 |                    const [01;31m[KIKCallbackFn[m[K& solution_callback, moveit_msgs::MoveItErrorCodes& error_code,
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:298:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  298 |                    const IKCallbackFn& solution_callback, [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes& error_code,
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:38[m[K:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  347 |   void setVariableBounds(const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& jlim);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  347 |   void setVariableBounds(const std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K& jlim);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  347 |   void setVariableBounds(const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& jlim);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  347 |   void setVariableBounds(const std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K& jlim);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  347 |   void setVariableBounds(const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& jlim);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  347 |   void setVariableBounds(const std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K& jlim);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  347 |   void setVariableBounds(const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& jlim);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  347 |   void setVariableBounds(const std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K& jlim);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:32:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  347 |   void setVariableBounds(const [01;31m[Kstd[m[K::vector<moveit_msgs::JointLimits>& jlim);
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  347 |   void setVariableBounds(const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& jlim);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:347:26:[m[K [01;31m[Kerror: [m[Ktemplate placeholder type ‘[01m[Kconst vector<...auto...>[m[K’ must be followed by a simple declarator-id
+  347 |   void setVariableBounds([01;31m[Kconst[m[K std::vector<moveit_msgs::JointLimits>& jlim);
+      |                          [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/opt/ros/noetic/include/geometry_msgs/Pose.h:10[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:37[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:386:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp, class _Alloc> class std::vector[m[K’ declared here
+  386 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:38[m[K:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:350:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  350 |   const std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits>& getVariableBoundsMsg() const
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:350:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  350 |   const std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K& getVariableBoundsMsg() const
+      |                                             [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:350:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:483:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ was not declared in this scope
+  483 |   std::vector<[01;31m[Kmoveit_msgs[m[K::JointLimits> variable_bounds_msg_;
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:483:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  483 |   std::vector<moveit_msgs::JointLimits[01;31m[K>[m[K variable_bounds_msg_;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h:483:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:[m[K In member function ‘[01m[Kvirtual bool kinematics::KinematicsBase::getPositionIK(const std::vector<geometry_msgs::Pose_<std::allocator<void> > >&, const std::vector<double>&, std::vector<std::vector<double> >&, kinematics::KinematicsResult&, const kinematics::KinematicsQueryOptions&) const[m[K’:
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:221:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs[m[K’ has not been declared
+  221 |   [01;31m[Kmoveit_msgs[m[K::MoveItErrorCodes error_code;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:222:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code[m[K’ was not declared in this scope
+  222 |   if (getPositionIK(ik_poses[0], ik_seed_state, solution, [01;31m[Kerror_code[m[K, options))
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:222:59:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/serialization.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/geometry_msgs/Pose.h:14[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:37[m[K:
+[01m[K/usr/include/c++/9/system_error:146:10:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::error_code[m[K’
+  146 |   struct [01;36m[Kerror_code[m[K
+      |          [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/mutex.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/thread/mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/gasper/GitHub/GD_kuka_ros_project/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp:37[m[K:
+[01m[K/usr/include/boost/system/error_code.hpp:567:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::system::error_code[m[K’
+  567 | class [01;36m[Kerror_code[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [kinematics_base/CMakeFiles/moveit_kinematics_base.dir/build.make:63: kinematics_base/CMakeFiles/moveit_kinematics_base.dir/src/kinematics_base.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3562: kinematics_base/CMakeFiles/moveit_kinematics_base.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
